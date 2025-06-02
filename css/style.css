@@ -196,7 +196,7 @@ section{
     
 }
 .excel{
-    background-color: #9402ae38;
+  background-image: url('/images/hero.jpg'); 
     display: grid;
     grid-template-columns: 1fr;
 
