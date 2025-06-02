@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans';
+   
+    
+}
+/* nav bar start */
+
+nav{
+    background-color: #0d02ae;
+    box-shadow: 3px 3px 5pc rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0 40px;
+}
+ nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+nav li {
+    height: 50px;
+    
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #e0d503;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 150px;
+    z-index: 999;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+h1{
+    color: #cbcb06;
+}
+span{
+    color: #fff;
+}
+
+/* nav bar end */
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* first page start */
+
+.data{
+    padding: 20px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.page1{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.page2{
+background-color: rgba(11, 11, 1, 0.082);
+border-radius: 20px;
+}
+.java{
+    padding: 10px;
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    border-radius: 5px;    
+    padding: 10px;
+    gap: 1px;
+}
+
+
+h2{
+    font-size: 12px;
+    color:  #fff;
+    text-align: center;
+    border: solid rgba(165, 42, 42, 0.256) 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    border-width: 5px;
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+h2:hover{
+    color: #cec402;
+}
+h4{
+    font-size: 15px;
+    color: rgb(235, 39, 232);
+    text-align: center;
+    padding-top: 10px;
+}
+h5{
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+p{
+    font-size: 14px;
+    color: #060142;
+    text-align: center;
+}
+.mdn {
+    text-decoration: none;
+    color: rgb(207, 93, 93);
+
+    
+}
+.mdn:hover{
+    color: #cec402;
+    
+}
+.add img{
+    border-radius: 20%;
+    width: 100%;
+    color: #07176b;   
+}
+.ac {
+    color: #fff;
+    text-decoration: none;
+
+    display: block;
+    line-height: 40px;
+}
+section{
+    background-image: url('/images/hero.jpg'); 
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+
+    
+    
+}
+.excel{
+    background-color: #9402ae38;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+
+    margin-top: 80px;
+    padding: 20px;
+
+}
+
+
+
+hr{
+    border-top: dashed rgb(5, 8, 202);
+}
+.gap2{
+    padding-top: 50px;
+}
+.ex{
+    font-size: 25px;
+    color: #d4f401;
+    padding: 10px;
+    
+}
+.ex1{
+    font-size: 30px;
+    color: #fff;
+    font-family: Impact;
+    padding: 30px 0;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.mon{
+    font-size: 25px;
+    color: #fff;
+    font-family: arial;
+    font-weight: bolder;
+    padding: 20px 50px;
+    line-height: 40px;
+ 
+}
+.basic{
+    background-color: #efef0215;
+}
+.basic3{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px;
+}
+.bottom{
+    padding-bottom: 80px;
+}
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+    background-color:  rgba(2, 2, 91, 0.856);
+   color: #fff;
+   text-align: center;
+   padding:  5px 0;
+}
+.icon {
+    padding: 0px 30px;
+}
+
+.about{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.about:hover{
+    width: 600px;
+}
+
+
+
+
+
+/* First Media Quaery */
+ @media screen and (max-width:900px){
+    .hideonMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+        padding: 10px 40px;
+    }
+    nav a{
+        color: black;
+    }
+   .data{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   h2,p{
+    font-size: 16px;
+   }
+  
+    
+  }
+
+
+    
+ @media screen and (max-width:600px){
+    .sidebar{
+        width: 100%;
+        height: 200px;
+    }
+    
+.menu-button{
+    display: block
+}
+nav a{
+        color: black;
+    }
+    
+h1{
+    color: #cbcb06;
+    font-size: 15px;
+}
+span{
+    color: #fff;
+    font-size: 15px;
+}
+ h2{
+    font-size: 20px;
+    width: 50%;
+    margin: 10px auto;
+ }
+ h5,h4,p{
+    font-size: 20px;
+    line-height: 40px;
+   }
+  .page1{
+   display: grid;
+    grid-template-columns: 1fr;
+    
+
+}
+ }
+

@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    /* background-image: url('/images/GraceCloud.jpg'); */
+    background-color: #fff;
+    backdrop-filter: (10px);
+}
+/* nav bar start */
+
+nav{
+    background-color: #0d02ae;
+    box-shadow: 3px 3px 5pc rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0 40px;
+}
+ nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+nav li {
+    height: 50px;
+    
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #e0d503;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 150px;
+    z-index: 999;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+h1{
+    color: #cbcb06;
+}
+.span1{
+    color: #fff;
+}
+
+/* nav bar end */
+
+/* --------------------------------------------------------------------------------------------------- */
+.contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: #3b66db89;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.terms{
+    font-size: 30px;
+    color: #0d02ae;
+    font-weight: bolder;
+}
+
+.strong{
+    font-size: 25px;
+    color: #6b6b01;
+    font-weight: 20px;
+    padding: 20px;
+    
+}
+
+table,tr,td,th{
+    border: 2px solid;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.box2{
+    margin-top: 10px;
+    
+}
+td:nth-of-type(1){
+    display: flex;
+    flex-direction: row;
+}
+.icons8{
+    padding-left: 10px;
+}
+/* Page start */
+.container {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto; 
+    display: grid;
+    margin-bottom: 100px;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+
+.item{
+    background-color: steelblue;
+    color: #fff;
+    padding: 20px;
+}
+.item:nth-of-type(1){
+    grid-column: 1 / span 2;
+    background-color: #fff;
+    text-align: justify;
+}
+.class1{
+    color:hsl(226, 100%, 35%);
+    padding: 10px;
+    font-size: 25px; 
+}
+.class2{
+    color: hsl(71, 100%, 35%);
+    padding: 10px;
+}
+.class3{
+    color: hsl(218, 22%, 67%);
+    padding: 10px;
+}
+
+.item:nth-of-type(2){
+    background-color: hsl(213, 91%, 54%);
+}
+
+.class4{
+    padding: 10px;
+}
+.class5{
+    padding: 10px;
+    
+}
+span{ color: hsla(0, 0%, 100%, 0.715);}
+.class6{
+    padding: 10px;
+}
+.class4, .class5, .class6 {
+    padding: 20px 10px;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-size: 16px;
+}
+.chat{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.item:nth-of-type(3){
+    background-color: hsla(234, 100%, 39%, 0.737);
+}
+.why{
+    padding: 10px;
+}
+.why2{
+    list-style-type: none;
+    line-height: 2;
+    padding: 0 10px;
+}
+
+/* Page End */
+
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   background-color:  rgb(2, 2, 91);
+   color: #fff;
+   text-align: center;
+   padding:  5px 0;
+}
+.icon {
+    padding: 0px 30px;
+}
+
+.about{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+.about:hover{
+    width: 600px;
+}
+
+
+/* First Media Quaery */
+@media screen and (max-width:900px){
+    .hideonMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+        padding: 10px 40px;
+    }
+    nav a{
+        color: black;
+    }
+   .data{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   h1,h2,p{
+    font-size: 16px;
+   }
+  
+   button{
+    width: 50%;
+   }
+  }
+
+
+    
+ @media screen and (max-width:600px){
+    .sidebar{
+        width: 100%;
+        height: 200px;
+    }
+    
+.menu-button{
+    display: block
+}
+nav a{
+        color: black;
+    }
+    
+h1{
+    color: #cbcb06;
+    font-size: 15px;
+}
+span{
+    color: #fff;
+    font-size: 15px;
+}
+ h2{
+    font-size: 20px;
+    width: 50%;
+    margin: 10px auto;
+ }
+ h5,h4,p{
+    font-size: 20px;
+    line-height: 40px;
+   }
+  .page1{
+   display: grid;
+    grid-template-columns: 1fr;
+    
+
+}
+ }
+
+

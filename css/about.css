@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    background-color: #fff;
+}
+/* nav bar start */
+nav{
+    background-color: #0d02ae;
+    box-shadow: 3px 3px 5pc rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0 40px;
+}
+ nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+nav li {
+    height: 50px;
+    
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #e0d503;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 150px;
+    z-index: 999;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 10px;
+}
+
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+h1{
+    color: #cbcb06;
+}
+span{
+    color: #fff;
+}
+
+/* nav bar end */
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* first page start */
+
+/* Page Start */
+.container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right:auto;
+    margin-left: auto;
+    
+}
+
+.box{
+    background-color: #0d02ae23;
+    height:100% ;
+    color: #030784;
+    display: grid;
+    padding: 10px 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+.box1{
+    height:100% ;
+    line-height: 25px;
+    text-align: justify;
+    border-radius: 5px;
+    border: solid 2px blue;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+.name{
+    float: left;
+    padding-right: 10px;
+}
+.lad{
+    padding-bottom:10px ;
+}
+.box2{
+    color: black;
+    width: 100%;
+    
+}
+table,tr,td,th{
+    border: 2px solid;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.gra{
+    padding: 10px 0;
+}
+.abt{
+    color: black;
+    font-size: 20px;
+}
+
+/* Page End */
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+    background-color:  rgb(2, 2, 91);
+   color: #fff;
+   text-align: center;
+   padding:  5px;
+}
+.icon {
+    padding: 0px 30px;
+}
+
+.about{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+.about:hover{
+    width: 600px;
+}
+
+
+
+
+
+/* First Media Quaery */
+ @media screen and (max-width:900px){
+    .hideonMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+        padding: 10px 40px;
+    }
+    nav a{
+        color: black;
+    }
+   .data{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   h2,p{
+    font-size: 16px;
+   }
+  
+    
+  }
+
+
+    
+ @media screen and (max-width:600px){
+    .sidebar{
+        width: 100%;
+        height: 200px;
+    }
+    
+.menu-button{
+    display: block
+}
+nav a{
+        color: black;
+    }
+    
+
+span{
+    color: #fff;
+    font-size: 15px;
+}
+ h2{
+    font-size: 20px;
+    width: 50%;
+    margin: 10px auto;
+ }
+ h5,h4,p{
+    font-size: 20px;
+    line-height: 40px;
+   }
+  .page1{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+ }
