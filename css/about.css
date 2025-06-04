@@ -53,14 +53,14 @@ nav li:first-child{
     top: 0;
     right: 0;
     height: 100vh;
-    width: 150px;
+    width: 250px;
     z-index: 999;
     background-color: #ffffff;
     display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .sidebar li{
@@ -203,7 +203,10 @@ table,tr,td,th{
   h1{
     font-size: 15px;
   }
-    
+     .icon {
+    padding: 0px 10px;
+}
+
   }
 
 
@@ -242,5 +245,8 @@ span{
 }
 .box{
     padding: 0 30px;
+}
+.icon {
+    padding: 0px 5px;
 }
  }
