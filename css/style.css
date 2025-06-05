@@ -13,7 +13,7 @@ body {
 
 nav{
     background-color: #0d02ae;
-    box-shadow: 3px 3px 5pc rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -57,7 +57,7 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: #fff;
+    background-color: #ffffff;
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -286,9 +286,20 @@ hr{
     .hideonMobile{
         display: none;
     }
-    .menu-button{
-        display: block;
-        padding: 10px 40px;
+      .menu-button{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        padding-top: 10px;
+       /*  display: block; */
+      /*   padding: 10px 40px; */
+      }
+    nav{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    
     }
     nav a{
         color: black;
@@ -301,7 +312,7 @@ hr{
     font-size: 16px;
    }
   .icon {
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
     
@@ -322,7 +333,13 @@ hr{
     
     
 .menu-button{
-    display: block
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        padding-top: 10px;
+       
+      }
+    
 }
 nav a{
         color: black;
@@ -353,5 +370,5 @@ span{
 }
 
 }
- }
+ 
 

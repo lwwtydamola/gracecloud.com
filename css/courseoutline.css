@@ -13,7 +13,7 @@ body {
 
 nav{
     background-color: #0d02ae;
-    box-shadow: 3px 3px 5pc rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
