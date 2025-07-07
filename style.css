@@ -115,6 +115,7 @@ span{
     -webkit-background-clip: text;
     margin-bottom: 20px;
 }
+.wel2{text-decoration: none;}
 .but{
     padding: 10px;
     border-radius: 5px;
@@ -289,7 +290,8 @@ a:hover{
         color: black;
     }
     .gra{
-        font-size: 15px;
+        font-size: 20px;
+        padding-top: 20px;
     }
     .pho{
         display: grid;
@@ -339,7 +341,8 @@ a:hover{
     padding: 0px 5px;
     }
     .gra{
-        font-size: 10px;
+        font-size: 15px;
+        padding-top: 20px;
     }
 .menu-button{
         display: flex;
