@@ -288,6 +288,9 @@ a:hover{
     nav a{
         color: black;
     }
+    .gra{
+        font-size: 15px;
+    }
     .pho{
         display: grid;
         grid-template-columns: 1fr;
@@ -335,8 +338,9 @@ a:hover{
         .icon {
     padding: 0px 5px;
     }
-    
-    
+    .gra{
+        font-size: 10px;
+    }
 .menu-button{
         display: flex;
         flex-direction: row;
