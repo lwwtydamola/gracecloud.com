@@ -6,8 +6,7 @@
 
 body {
     font-family: 'Lucida Sans';
-    background-color: #fff;
-   
+    background-color: #06b8f8a6;  
     
 }
 /* nav bar start */
@@ -97,15 +96,15 @@ span{
     /* background-color: #0d02ae; */
     display: grid;
     grid-template-columns: 5fr 7fr;
-    padding: 0 20px;
+    padding: 0 40px;
     margin: 50px 0 50px;
 }
 .pho1{
-    padding: 10px 0;
+    padding: 50px 0;
 }
 .pho3{
     padding: 10px 0;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .wel{
@@ -146,6 +145,7 @@ a:hover{
     display: grid;
     grid-template-columns:repeat(4,1fr);
     gap: 10px;
+    background-color: rgb(66, 38, 3);
     
 }
 .phone3{
@@ -218,6 +218,7 @@ a:hover{
     align-items: center;
     border-radius: 20px;
     padding: 2px;
+    background-color: antiquewhite;
    }
 
    .serve1{
@@ -298,11 +299,23 @@ a:hover{
     .pho{
         display: grid;
         grid-template-columns: 1fr;
+        margin-top: 50px;
+        padding-bottom: 50px;
     }
+    .pho3{
+    padding: 10px 0;
+    padding-top: 10px;
+}
     .wel{
-        font-size: 18px;
+        font-family:monospace;
+        text-transform: uppercase;
+        font-size: 20px;
         text-align: center;
-        color: #fff;
+        color: rgb(241, 229, 6);
+        letter-spacing: 2px;
+        font-weight: bolder;
+        
+        
     }
     .wel33{
         font-size: 15px;
